@@ -1,0 +1,25 @@
+.grandient{
+}
+.name{
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 900;
+}
+.address{
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 600;
+}
+.phone{
+    font-size: 23px;
+    font-weight: 600;
+}
+.menu{
+    margin-top: 50px;
+    font-family:fantasy;
+    font-size: 35px;
+}
+.price{
+    font-size: 30px;
+    font-weight: 800;
+}

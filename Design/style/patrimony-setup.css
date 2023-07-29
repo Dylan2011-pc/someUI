@@ -1,0 +1,75 @@
+.container.bank-card-setup {
+  margin-top: 78px;
+  font-family: 'Nunito';
+}
+
+.container.bg-patrimony-setup {
+  background-image: url("../img/red.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 25%;
+}
+
+.card-setup-label {
+  margin-top: 37px;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.card-setup-guide {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.card.wallet-card-item {
+  height: 190px;
+  border-radius: 15px;
+  position: relative;
+  background: none;
+  padding: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+div.wallet-name {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 28px;
+  font-weight: 800;
+}
+
+.bg-card-content-item {
+  background-color: #fff;
+  opacity: 0.05;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 15px;
+}
+
+.wallet-img {
+  height: 75px;
+  max-width: 90px;
+}
+
+.popular-tag {
+  background-color: #fff;
+  color: #242034;
+  border-radius: 11px;
+  border: none;
+  height: 30px;
+  float: right;
+  position: absolute;
+  right: 5%;
+  font-size: 14px;
+  padding: 7px 14px 7px 15px;
+  margin-top: -15px;
+  line-height: 1.14;
+}
+/*# sourceMappingURL=patrimony-setup.css.map */

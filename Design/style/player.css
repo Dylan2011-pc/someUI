@@ -1,0 +1,199 @@
+.icon-player {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background: #2a2738;
+  padding-top: 12.8px;
+  margin-right: 20px;
+  padding-left: 2px;
+  cursor: pointer;
+}
+
+button.btn.btn-purchase-big {
+  height: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#ff765d), to(#fe3972));
+  background: linear-gradient(to right, #ff765d, #fe3972);
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+.bnb-3xlarge {
+  margin-bottom: 15px;
+  width: 38px;
+  height: 38px;
+}
+
+.content-box {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-bottom: 30px;
+}
+
+.content-box > .content-box-label {
+  border-bottom: #333232 1px solid;
+  width: 100%;
+  padding: 24px 0px 20px 25px;
+}
+
+.content-box > .main-content-box {
+  padding: 24px 0px 35px 25px;
+}
+
+.main-content-box > .content-label-half > .content-title-half {
+  text-transform: none;
+}
+
+.content-title-half > .content-label-icon {
+  margin-right: 18px;
+}
+
+.average-price {
+  color: #fe3a71;
+  margin-left: 25px;
+  font-weight: 800;
+}
+
+button.btn.btn-filter-thistory {
+  height: 50px;
+  width: 127px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: none;
+  margin-right: 20px;
+}
+
+button.btn.btn-filter-thistory.active {
+  height: 50px;
+  width: 127px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, right top, from(#ff765d), to(#fe3972));
+  background: linear-gradient(to right, #ff765d, #fe3972);
+  border: none;
+}
+
+button.btn.btn-filter-thistory > span {
+  color: white;
+  opacity: 50%;
+}
+
+button.btn.btn-filter-thistory.active > span {
+  color: white;
+  opacity: 100%;
+}
+
+.th-filter-thistory {
+  height: 50px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding-top: 15px;
+  max-width: 184px;
+}
+
+.thead-thistory {
+  width: 20%;
+}
+
+.col.player-product-card {
+  margin-top: 30px;
+  padding-right: 14px;
+  padding-left: 15px;
+  max-height: 269px;
+}
+
+.card-bottom-player {
+  width: 100%;
+  background-color: #272538;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 10px 14px 10px;
+  border-bottom: 0.1px solid #1c192b;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-bottom-player-action {
+  width: 100%;
+  background-color: #272538;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 10px 14px 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-avt-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-detail-pname {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.card-price {
+  font-size: 11.8px;
+}
+
+.card-lastprice {
+  font-size: 10px;
+  color: gray;
+}
+
+.card-info-avatar {
+  width: 34px;
+  height: 34px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+button.btn.btn-purchase-now {
+  width: 87px;
+  border-radius: 6px;
+  height: 30px;
+  background-color: #322f42;
+  border: none;
+  font-size: 14px;
+  color: white;
+  font-family: 'Nunito';
+  font-weight: bold;
+  line-height: 1.1px;
+}
+
+.icon-heart-check {
+  line-height: 2;
+}
+
+.heart-check {
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 1366px) {
+  div.col-10.display-6.player-song-name {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=player.css.map */

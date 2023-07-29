@@ -1,0 +1,365 @@
+
+body{
+    background-color: #1C192B;
+}
+.container-fluid.profile-cover-photo{
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+
+/* user profile first info */
+.profile-cover-img{
+    height: 252px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.row.user-profile{
+    margin-top: 50px;
+}
+.user-profile-avatar{
+    width: 153px;
+    height: 153px;
+    border-radius: 50%;
+}
+.col-6.user-first-info{
+    text-align: left;
+}
+.user-name{
+    font-size: 30px;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+.user-id-vi{
+    color: rgb(80 227 194);
+    font-size: 18px;
+}
+.user-info{
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: 500;
+}
+.col-4.row.user-profile-action{
+    justify-content: flex-end;
+    padding-right: 0px;
+}
+
+button.btn.btn-user-follow{
+    background-color: #272435;
+    border-radius: 8px;
+    opacity: 95%;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Nunito';
+    margin-right: 20px;
+}
+button.btn.btn-mail-user{
+    background-color: #272435;
+    margin-right: 20px;
+    height: 70px;
+    width: 70px;
+}
+button.btn.btn-user-menu{
+    background-color: #272435;
+    color: white;
+    height: 70px;
+    width: 70px;
+}
+
+/* item overall product */
+.row.row-cols-4.user-profile-productoverall{
+    margin-top: 40px;
+}
+
+.productoverall-items{
+    height: 109px;
+    background-color: #272435;
+    border: none;
+    border-radius: 5px;
+    opacity: 95%;
+    font-size: 18px;
+    padding-top: 8%;
+}
+.product-amount{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Nunito';
+}
+
+/* main content trang 1 */
+.container.user-profile-maincontent1{
+    margin-top: 55px;
+    font-family: 'Nunito';
+}
+.filter{
+    text-align: left;
+    line-height: 1.8;
+}
+.filter-hidden{
+    display: none !important;
+}
+.filter-action{
+    color: #7B7883;
+    font-size: 18px;
+    text-align: right;
+}
+.filter-checkbox{
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+    background: #272435;
+    line-height: 4;
+    font-size: 16px;
+    color: #7B7883;
+}
+.filter-cheked{
+    background: linear-gradient(to right, rgb(255 121 33) , rgb(254 57 114));
+    line-height: 4;
+    color: white;
+}
+
+
+/* product-selector giao dien ben phai */
+.col-9.row.product-selector{
+    text-align: left;
+    font-size: 18px;
+    margin-left: 1px;
+    color: #7C7B85;
+}
+.col-3.record-appear{
+    text-align: right;
+    color: #7C7B85;
+}
+.col-sm-3.product-selector-item.px-0{
+    width: 18%;
+}
+.psi-active{
+    border-image-source: linear-gradient(to right,rgb(255 118 93) , rgb(254 57 114));
+    border-bottom: 3px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    width: fit-content;
+    color: white;
+    border-bottom-width:3px ;
+}
+.row.mt-3.product-searchbar{
+    padding-left: 10px;
+}
+input.input-product-search{
+    background-color: #272435;
+    border-radius: 10px;
+    border: none;
+    height: 70px;
+    position: relative;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+span.input-product-search-placeholder{
+  position: absolute;
+  right: 55%;
+  margin-top: 25px;
+  color: #9E9CA4;
+  font-size: 18px;
+}
+.search-icon-product{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 63%;
+    margin-top: 28px;
+}
+.row.card-product{
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+/* card-product */
+.card-bottom{
+    height: 20%;
+    width: 100%;
+    background-color: #272538;
+    display: flex;
+    justify-content:space-between;
+    padding: 12px 10px 14px 10px;
+    border-bottom: 0.1px solid rgb(28 25 43);
+    align-items: center;
+}
+.card-bottom-action{
+    height: 20%;
+    width: 100%;
+    background-color: #272538;
+    display: flex;
+    justify-content:space-between;
+    padding: 12px 10px 14px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card-img{
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.card-avt-name{
+    display: flex;
+}
+.card-detail-pname{
+    font-size: 14px;
+    text-align: left;
+    margin-left: 10px;
+}
+.card-price{
+    font-size: 11.8px;
+}
+.card-lastprice{
+    font-size: 10px;
+    color: gray;
+}
+.card-info-avatar{
+    width: 34px;
+    height: 34px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+button.btn.btn-purchase-now{
+    width: 87px;
+    border-radius: 6px;
+    height: 30px;
+    background-color: rgba(50,47,66,255);
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-family: 'Nunito';
+    font-weight: bold;
+    line-height: 1.1px;
+}
+
+.col.product-card{
+    height: 266px;
+    margin-top: 30px;
+    padding-right: 0px;
+    padding-left: 12px;
+}
+.icon-heart-check{
+    line-height: 2;
+}
+.heart-check{
+    margin-bottom:2px
+}
+ul.nav.nav-tabs.col-9.row.product-selector{
+    border: none;
+    padding-left: 10px;
+}
+
+.nav-link.psi-active.active{
+    background:none;
+    border-image-source: linear-gradient(to right,rgb(255 118 93) , rgb(254 57 114));
+    border-bottom: 3px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    width: fit-content;
+    color: white;
+    border-bottom-width:3px ;
+}
+.nav-link.psi-active{
+    width: max-content;
+    
+}
+.nav-link.psi-active:hover{
+    color: rgb(254 57 114);
+}
+
+.nav-tabs .nav-link{
+    border: none;
+
+}
+
+/* activities tab */
+.col-12.activities-tab{
+    margin-top: 15px;
+}
+.img-chart-demo{
+    width: 100%;
+}
+
+table.table.activities-table{
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+    font-family: 'Nunito';
+}
+th.activities-records{
+    text-align: left;
+}
+.product-status{
+    width: 89px;
+    height: 50px;
+    opacity: 95%;
+    border: none;
+}
+.product-status-label{
+    width: 89px;
+    height: 50px;
+    border-radius: 8px;
+    opacity: 95%;
+    border: none;
+    background-color: #272435;
+    line-height: 3.4;
+    vertical-align: middle;
+    font-size: 16px;
+}
+img.activities-product-img{
+    width: 100px;
+    height: 61px;
+    object-fit: cover;
+    float: left;
+    margin-right: 20px;
+}
+.activities-product-name{
+    font-size:14px;
+    text-align: left;
+    word-wrap: break-word;
+    margin-top: 10px;
+}
+.activities-product-price{
+    font-size: 14px;
+    text-align: right;
+}
+.activities-product-secondaryprice{
+    font-size: 12px;
+    color: grey;
+    text-align: right;
+}
+th.activies-price{
+    text-align: right;
+    padding-right: 20px;
+}
+td.activities-price{
+    vertical-align: middle;
+    padding-right: 20px;
+}
+.activities-product-amount{
+    font-size: 14px;
+    color: white;
+    opacity: 70%;
+    vertical-align: middle;
+}
+.activities-from-to{
+    font-size: 14px;
+    color: rgb(80 227 194);
+    vertical-align: middle;
+}
+.activities-timestamp{
+    font-size: 14px;
+    color: white;
+    opacity: 70%;
+    vertical-align: middle;
+}
